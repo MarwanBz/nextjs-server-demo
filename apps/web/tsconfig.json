@@ -21,6 +21,8 @@
     ],
     "paths": {
       "@/*": ["./src/*"],
+      "@nextjs-server-demo/db": ["../../packages/db/src/index.ts"],
+      "@nextjs-server-demo/db/*": ["../../packages/db/src/*.ts"],
       "@nextjs-server-demo/ui/*": ["../../packages/ui/src/*"]
     }
   },
